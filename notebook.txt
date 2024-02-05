@@ -3,11 +3,10 @@
 3. pdf to image  --- > processing ---> google gemini pro 
 4. prompt template   
 
-step 1: create virtual environment
-step 2: active virtual environment
+step 1: create virtual environment  (conda create -p ats python==3.9 -y)
+step 2: active virtual environment  (conda activate ./ats)
 step 3: create requirement.txt 
 step 4: create .env (put your api key of google gemini inside this .env file) (create from here : https://makersuite.google.com/app/apikey)
-
 step 5: create application file as app.py  
 step 6: import required libraries   
 step 7: make method to get response from geminiai
