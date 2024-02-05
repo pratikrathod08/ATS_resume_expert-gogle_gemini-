@@ -62,7 +62,7 @@ uploaded_file = st.file_uploader("Upload your resume(PDF)...", type=['pdf'])    
 if uploaded_file is not None:
     st.write("pdf uploaded successfully")
 
-submit1 = st.button("tell me about the resume")
+submit1 = st.button("Tell me about the resume")
 
 submit2 = st.button("Score and matching from resume")
 
@@ -81,7 +81,7 @@ Experience:
 input_prompt2 = """
 You are an skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality, 
 your task is to evaluate the resume against the provided job description. give me the percentage of match if the resume matches
-the job description. First the output should come as percentage and then keywords missing and last final thoughts.
+the job description. First the output should come as percentage and then compare with job description and find missing keywords and last final thoughts.
 """
 
 
